@@ -1,0 +1,151 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Search and verify results",
+        "description": "",
+        "id": "search-results.-where-one-can-sort,-filter-and-see-details-of-resulting-products.;search-and-verify-results",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 904926662,
+              "error_message": "java.lang.IllegalStateException: The driver executable does not exist: C:\\Users\\Pandrill\\Desktop\\SDET\\com.qa.testautomation.ebay.new-master-v2 2\\src\\Drivers\\chromedriver.exe\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:199)\r\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:116)\r\n\tat ebay.qa.testautomation.SeleniumDriver.\u003cinit\u003e(SeleniumDriver.java:22)\r\n\tat ebay.qa.testautomation.SeleniumDriver.setUpDriver(SeleniumDriver.java:44)\r\n\tat ebay.qa.testautomation.SearchResultsStepdefs.lambda$new$0(SearchResultsStepdefs.java:13)\r\n\tat ✽.Given I am a non-registered customer(features/SearchResults.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "I am a non-registered customer",
+            "match": {
+              "location": "SearchResultsStepdefs.java:12"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I navigate to www.ebay.co.uk",
+            "match": {
+              "location": "SearchResultsStepdefs.java:15"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I search for an item",
+            "match": {
+              "location": "SearchResultsStepdefs.java:19"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I get a list of matching results",
+            "match": {
+              "location": "SearchResultsStepdefs.java:23"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "the resulting items cards show: postage price, No of bids, price or show BuyItNow tag",
+            "match": {
+              "location": "SearchResultsStepdefs.java:26"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I can sort the results by Lowest Price",
+            "match": {
+              "location": "SearchResultsStepdefs.java:32"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "the results are listed in the page in the correct order",
+            "match": {
+              "location": "SearchResultsStepdefs.java:35"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I can sort the results by Highest Price",
+            "match": {
+              "location": "SearchResultsStepdefs.java:38"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "the results are listed in the page in the correct order",
+            "match": {
+              "location": "SearchResultsStepdefs.java:35"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I can filter the results by \u0027Buy it now\u0027",
+            "match": {
+              "location": "SearchResultsStepdefs.java:41"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "all the results shown in the page have the \u0027Buy it now\u0027 tag",
+            "match": {
+              "location": "SearchResultsStepdefs.java:44"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@001"
+          }
+        ]
+      }
+    ],
+    "name": "Search Results. Where one can sort, filter and see details of resulting products.",
+    "description": "",
+    "id": "search-results.-where-one-can-sort,-filter-and-see-details-of-resulting-products.",
+    "keyword": "Feature",
+    "uri": "features/SearchResults.feature"
+  }
+]

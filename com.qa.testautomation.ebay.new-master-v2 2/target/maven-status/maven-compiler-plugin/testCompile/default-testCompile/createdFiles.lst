@@ -1,0 +1,5 @@
+ebay\qa\testautomation\SearchResultsPageLocators.class
+ebay\qa\testautomation\SearchResultsStepdefs.class
+ebay\qa\testautomation\TestRunner.class
+ebay\qa\testautomation\SearchResultsPageActions.class
+ebay\qa\testautomation\SeleniumDriver.class
